@@ -130,8 +130,10 @@
             <div class="nav-collapse sidebar-nav">
                 <ul class="nav nav-tabs nav-stacked main-menu">
                     <li><a href="{{URL::to('/admin')}}"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-                    <li><a href="{{URL::to('/all_categories')}}"><i class="icon-envelope"></i><span class="hidden-tablet"> All Categories</span></a></li>
+                    <li><a href="{{URL::to('/all_categories')}}"><i class="icon-align-justify"></i><span class="hidden-tablet"> All Categories</span></a></li>
                     <li><a href="{{URL::to('/add_category')}}"><i class="icon-tasks"></i><span class="hidden-tablet"> Add Category</span></a></li>
+                    <li><a href="{{URL::to('/all_admins')}}"><i class="icon-align-justify"></i><span class="hidden-tablet"> All Admins</span></a></li>
+                    <li><a href="{{URL::to('/add_admin')}}"><i class="icon-align-justify"></i><span class="hidden-tablet"> Add Admin</span></a></li>   
                 </ul>
             </div>
         </div>

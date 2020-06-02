@@ -52,6 +52,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/edit-category/{category_id}','CategoryController@edit_category');
     Route::post('/update-category/{category_id}','CategoryController@update_category');
     Route::get('/delete-category/{category_id}','CategoryController@delete_category');
+    Route::get('/add_admin','AdminController@indexx');
+    Route::post('/save_admin','AdminController@save_admin');
     //end dashboard
 
 //for cars//
