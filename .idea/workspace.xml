@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4eb7489-47a8-42fa-9ae1-bd56bce83196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/edit_admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bash.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gbash.exe.stackdico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gbash.exe.stackdump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/all_categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/all_categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/edit_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/edit_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/all_admins.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/all_admins.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +179,7 @@
       <workItem from="1584911757587" duration="522000" />
       <workItem from="1590701108328" duration="21707000" />
       <workItem from="1590785914255" duration="669000" />
+      <workItem from="1591389477849" duration="997000" />
     </task>
     <servers />
   </component>

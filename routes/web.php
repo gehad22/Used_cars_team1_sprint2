@@ -56,6 +56,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/save_admin','AdminController@save_admin');
 	Route::get('/all_admins','AdminController@allAdmins');
 	Route::get('/delete_admin/{id}','AdminController@DeleteAdmin');
+    Route::get('/edit-admin/{id}','AdminController@edit_Admin');
+    Route::post('/update-admin/{id}','AdminController@update_Admin');
+
     //end dashboard
 
 //for cars//
