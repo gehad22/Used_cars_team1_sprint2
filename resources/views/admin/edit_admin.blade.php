@@ -30,13 +30,13 @@
                             <div class="control-group">
                                 <label class="control-label" for="date01">Admin Name      </label>
                                 <div class="controls">
-                                    <input type="text" class="input_xlarge" name="name"  required="" >
+                                    <input type="text" class="input_xlarge" name="name" value= "{{ $admin_info->name }}" required="" >
                                 </div>
                             </div>
                             <div class="control-group">
                                 <label class="control-label" for="date01">Admin Email      </label>
                                 <div class="controls">
-                                    <input type="text" class="input_xlarge" name="email"  required="" >
+                                    <input type="text" class="input_xlarge" name="email" value= "{{ $admin_info->email }}"  required="" >
                                 </div>
                             </div>
                             <div class="control-group">

@@ -73,7 +73,7 @@ class AdminController extends Controller
     $data = array();
     $data['name'] = $request->name;
     $data['email'] = $request->email;
-    $data['password'] = $request->password;
+    $data['password'] = Hash::make($request->password);
 
     DB::table('users')->where('id', $id)->update($data);
     return Redirect('all_admins');
